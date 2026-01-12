@@ -21,7 +21,7 @@ export function About() {
               <span className="text-[#B3A369] font-medium">
                 Georgia Institute of Technology
               </span>
-              , where I focus on bridging theory with hands-on system development.
+              , where I focus on bridging theory with hands-on system development. I'm excited about what lies ahead!
             </p>
 
             <p>
