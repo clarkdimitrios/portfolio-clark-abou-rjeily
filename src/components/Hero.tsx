@@ -31,13 +31,13 @@ export function Hero() {
           </div>
 
           <div className="space-y-4">
-            <h2 className="text-4xl md:text-6xl font-black text-blue-600 tracking-tighter uppercase italic drop-shadow-sm">
+            <h2 className="text-4xl md:text-6xl font-black text-blue-600 tracking-tighter uppercase drop-shadow-sm">
               Clark Abou-Rjeily
             </h2>
           <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-zinc-900 leading-tight">
             Let's build <span className="text-zinc-500">robots!</span>
           </h1>
-          <h2 className="text-xl md:text-2xl font-semibold text-zinc-600">
+          <h2 className="text-xl md:text-2xl font-semibold text-[#B3A369]">
             Georgia Institute of Technology
           </h2>
           <p className="max-w-2xl mx-auto text-zinc-500 text-lg md:text-xl leading-relaxed">
