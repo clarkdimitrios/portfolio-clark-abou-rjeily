@@ -17,15 +17,15 @@ export function About() {
           <h2 className="text-4xl font-bold tracking-tight text-zinc-900 italic">About Me</h2>
           <div className="space-y-4 text-zinc-600 text-lg leading-relaxed">
             <p>
-              My name is Clark Abou-Rjeily, and I am a robotics engineer with a strong interest in building intelligent systems that can reason, adapt, and cooperate in complex real-world environments. I am currently completing my Master of Science in Robotics at{" "}
+              My name is Clark, and I am an electrical, computer, and robotics engineer with a strong interest in building intelligent systems that can reason, adapt, and operate reliably in complex real-world environments. I am currently completing my Master of Science in Robotics at{" "}
               <span className="text-[#B3A369] font-medium">
                 Georgia Institute of Technology
               </span>
-              , where I maintain a 4.0 GPA and focus on bridging theory with hands-on system development.
+              , where I focus on bridging theory with hands-on system development.
             </p>
 
             <p>
-              My technical interests sit at the intersection of controls, artificial intelligence, and perception. Through my work with Georgia Tech’s FACTS Lab, I have explored problems in multi-robot coordination, autonomy, and control, with an emphasis on designing systems that are robust, scalable, and grounded in real-world constraints.
+              My technical interests sit at the intersection of controls, artificial intelligence, and perception. Through my work with Georgia Tech’s FACTS Lab, I have explored problems in multi-robot coordination and autonomy, with an emphasis on designing systems that are robust, scalable, and grounded in real-world constraints.
             </p>
 
             <p>
@@ -33,7 +33,7 @@ export function About() {
               <span className="text-[#850132] font-medium">
                 American University of Beirut
               </span>
-              , where I ranked first in my track. During this time, I developed a strong foundation in control systems, machine learning, and instrumentation through research-driven projects and engineering-focused coursework.
+              , where I built a strong foundation in control systems, machine learning, and instrumentation through research-driven projects and engineering-focused coursework.
             </p>
 
             <p>
@@ -41,7 +41,7 @@ export function About() {
               <span className="text-[#683a1b] font-medium">
                 piano
               </span>{" "}
-              player. Years of musical training taught me discipline, structure, and attention to detail—qualities that strongly influence how I approach engineering challenges. Whether refining a control loop or debugging a complex system, I value precision, iteration, and thoughtful design.
+              player. Years of musical training taught me discipline and attention to detail—qualities that shape how I approach engineering problems, from refining control loops to debugging complex systems.
             </p>
           </div>
 
