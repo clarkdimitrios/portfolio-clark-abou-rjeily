@@ -41,7 +41,7 @@ export function About() {
               <span className="text-[#683a1b] font-medium">
                 piano
               </span>{" "}
-              player. Years of musical training taught me discipline and attention to detail—qualities that shape how I approach engineering problems, from refining control loops to debugging complex systems.
+              player. Years of musical training taught me discipline and attention to detail. Also, I love skiing, and most of my vacation days will align with good powder days!
             </p>
           </div>
 
