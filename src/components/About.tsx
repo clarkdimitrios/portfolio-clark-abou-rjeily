@@ -59,7 +59,7 @@ export function About() {
             src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/clark-resized-1766412243603.jpg?width=8000&height=8000&resize=contain"
             alt="Clark Abou Rjeily"
             fill
-            className="object-cover rounded-2xl border-4 border-white shadow-2xl shadow-blue-500/10"
+            className="object-cover group-hover:scale-105 rounded-2xl border-4 border-white shadow-2xl shadow-blue-500/10"
             priority
           />
         </motion.div>
