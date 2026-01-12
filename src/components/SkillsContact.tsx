@@ -17,7 +17,7 @@ export function Skills() {
       <div className="max-w-7xl mx-auto space-y-12">
         <h2 className="text-4xl font-bold tracking-tight text-zinc-900 italic">Skills & Expertise</h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {Object.entries(skills).map(([category, items], index) => (
             <motion.div
               key={category}
