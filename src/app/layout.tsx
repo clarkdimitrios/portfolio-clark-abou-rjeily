@@ -6,8 +6,8 @@ import Script from "next/script";
 import { Navbar } from "@/components/Navbar";
 
 export const metadata: Metadata = {
-  title: "Clark Abou Rjeily | Robotics Engineer",
-  description: "Portfolio of Clark Abou Rjeily, a Robotics Engineer and M.S. Candidate at Georgia Institute of Technology.",
+  title: "Clark Abou-Rjeily | Robotics Engineer",
+  description: "Portfolio of Clark Abou-Rjeily, Robotics Engineer and M.S. Candidate at Georgia Tech.",
 };
 
 export default function RootLayout({

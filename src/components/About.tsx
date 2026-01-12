@@ -57,7 +57,7 @@ export function About() {
           <div className="absolute inset-0 bg-blue-500/10 blur-3xl rounded-full -z-10" />
           <Image
             src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/clark-resized-1766412243603.jpg?width=8000&height=8000&resize=contain"
-            alt="Clark Abou Rjeily"
+            alt="Clark Abou-Rjeily"
             fill
             className="object-cover rounded-2xl border-4 border-white shadow-2xl shadow-blue-500/10"
             priority
