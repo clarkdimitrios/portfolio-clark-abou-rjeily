@@ -17,18 +17,34 @@ export function About() {
           <h2 className="text-4xl font-bold tracking-tight text-zinc-900 italic">About Me</h2>
           <div className="space-y-4 text-zinc-600 text-lg leading-relaxed">
             <p>
-              I am Clark Abou Rjeily, a highly analytical and driven Robotics Engineer currently pursuing my Master of Science in Robotics at the Georgia Institute of Technology, where I maintain a 4.0 GPA.
+              My name is Clark Abou-Rjeily, and I am a robotics engineer with a strong interest in building intelligent systems that can reason, adapt, and cooperate in complex real-world environments. I am currently completing my Master of Science in Robotics at{" "}
+              <span className="text-[#B3A369] font-medium">
+                Georgia Institute of Technology
+              </span>
+              , where I maintain a 4.0 GPA and focus on bridging theory with hands-on system development.
             </p>
+
             <p>
-              My expertise lies at the intersection of Controls, Artificial Intelligence, and Perception. I am passionate about developing robust, intelligent, and autonomous robotic systems that can collaborate effectively and operate safely in complex environments.
+              My technical interests sit at the intersection of controls, artificial intelligence, and perception. Through my work with Georgia Tech’s FACTS Lab, I have explored problems in multi-robot coordination, autonomy, and control, with an emphasis on designing systems that are robust, scalable, and grounded in real-world constraints.
             </p>
+
             <p>
-              With a background in Electrical and Computer Engineering from the American University of Beirut (ranked 1st in my track), I bring a strong foundation in control systems, machine learning, and instrumentations.
+              I earned my undergraduate degree in Electrical and Computer Engineering from the{" "}
+              <span className="text-[#850132] font-medium">
+                American University of Beirut
+              </span>
+              , where I ranked first in my track. During this time, I developed a strong foundation in control systems, machine learning, and instrumentation through research-driven projects and engineering-focused coursework.
             </p>
+
             <p>
-              Beyond technical pursuits, I am a Level VIII certified piano player, which has instilled in me a deep appreciation for rhythm, precision, and dedication—qualities I bring to every engineering challenge I tackle.
+              Outside of robotics, I am a Level VIII certified{" "}
+              <span className="text-[#683a1b] font-medium">
+                piano
+              </span>{" "}
+              player. Years of musical training taught me discipline, structure, and attention to detail—qualities that strongly influence how I approach engineering challenges. Whether refining a control loop or debugging a complex system, I value precision, iteration, and thoughtful design.
             </p>
           </div>
+
         </motion.div>
 
         <motion.div
