@@ -6,9 +6,9 @@ import { Mail, Linkedin, Github, Phone, MapPin } from "lucide-react"
 import Link from "next/link"
 
 const skills = {
-  "Hard Skills": ["Python", "PyTorch", "C#", "C++", "ROS", "ROS2", "Gazebo", "RViz", "MATLAB", "LabVIEW", "PSpice", "GitHub", "LaTeX"],
+  "Hard Skills": ["Python", "PyTorch", "C#", "C++", "ROS", "ROS2", "Gazebo", "RViz", "OpenCV", "MATLAB", "LabVIEW", "PSpice", "GitHub", "LaTeX"],
   "Languages": ["English (Fluent)", "French (Fluent)", "Arabic (Fluent)", "Korean (Basic)"],
-  "Soft Skills": ["Time Management", "Communication", "Problem-solving", "Critical Thinking", "Teamwork", "Collaboration"]
+  // "Soft Skills": ["Time Management", "Communication", "Problem-solving", "Critical Thinking", "Teamwork", "Collaboration"]
 }
 
 export function Skills() {
