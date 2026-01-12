@@ -12,7 +12,7 @@ const education = [
     details: [
       "Core Areas: Controls, Artificial Intelligence (AI), and Perception",
       "GPA: 4.0/4.0",
-      "Coursework: Robotics, Nonlinear & Networked Control, Deep Reinforcement Learning, Computer Vision",
+      "Coursework: Robotics, Nonlinear & Networked Control, Deep Reinforcement Learning, Computer Vision, Human-Robot Interaction",
     ],
   },
   {
@@ -23,8 +23,8 @@ const education = [
     logo: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/0c96ce6b-4e6e-401c-9a07-642e0ed15a13/aub-logo-1768185672808.jpg?width=8000&height=8000&resize=contain",
     details: [
       "Minor in Business Administration",
-      "GPA: 4.0/4.0 | Graduated with High Distinction",
-      "Ranked 1st, Track in Control, Robotics, and Intelligence Systems",
+      "GPA: 4.0/4.0 | Graduated with High Distinction, ranked 1st",
+      "Track in Control, Robotics, and Intelligence Systems",
       "Coursework: Autonomous Mobile Robotics, Machine Learning, Modern Control Systems, Instrumentation",
     ],
   },
@@ -135,7 +135,7 @@ function TimelineItem({ title, subtitle, period, location, details, index, logo 
       transition={{ duration: 0.5, delay: index * 0.1 }}
       className="relative pl-8 pb-12 last:pb-0 border-l-2 border-zinc-100"
     >
-      <div className="absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-white border-4 border-blue-600 shadow-lg shadow-blue-500/20" />
+      <div className="absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-white border-4 border-[#003057] shadow-lg shadow-blue-500/20" />
       <div className="flex flex-col md:flex-row md:items-start justify-between gap-4 mb-4">
         <div className="flex gap-4 items-start">
           {logo && (
@@ -145,7 +145,7 @@ function TimelineItem({ title, subtitle, period, location, details, index, logo 
           )}
           <div>
             <h3 className="text-2xl font-bold text-zinc-900">{title}</h3>
-            <p className="text-blue-600 font-semibold text-lg">{subtitle}</p>
+            <p className="text-[#003057] font-semibold text-lg">{subtitle}</p>
           </div>
         </div>
         <div className="md:text-right">
@@ -184,7 +184,7 @@ function EducationCard({ title, subtitle, period, location, details, index, logo
           <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-2">
             <div>
               <h3 className="text-2xl font-bold text-zinc-900 leading-tight">{title}</h3>
-              <p className="text-blue-600 font-semibold text-lg">{subtitle}</p>
+              <p className="text-[#003057] font-semibold text-lg">{subtitle}</p>
             </div>
             <div className="sm:text-right">
               <p className="text-zinc-500 font-mono text-sm font-medium">{period}</p>
