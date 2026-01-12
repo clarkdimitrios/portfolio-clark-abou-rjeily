@@ -30,7 +30,7 @@ export function Skills() {
               <h3 className="text-xl font-semibold text-zinc-900 border-b border-zinc-200 pb-2">{category}</h3>
               <div className="flex flex-wrap gap-2">
                 {items.map((skill) => (
-                  <Badge key={skill} variant="outline" className="px-3 py-1 text-sm border-zinc-200 text-zinc-600 hover:text-blue-600 hover:border-blue-500 hover:bg-blue-50 transition-all cursor-default">
+                  <Badge key={skill} variant="outline" className="px-3 py-1 text-sm border-zinc-200 text-zinc-600 hover:text-[#003057] hover:border-blue-500 hover:bg-blue-50 transition-all cursor-default">
                     {skill}
                   </Badge>
                 ))}
@@ -63,20 +63,20 @@ export function Contact() {
             className="space-y-8"
           >
             <div className="flex items-center gap-4 group">
-              <div className="p-4 rounded-2xl bg-blue-50 border border-blue-100 group-hover:bg-blue-600 transition-all duration-300">
-                <Mail className="h-6 w-6 text-blue-600 group-hover:text-white" />
+              <div className="p-4 rounded-2xl bg-blue-50 border border-blue-100 group-hover:bg-[#003057] transition-all duration-300">
+                <Mail className="h-6 w-6 text-[#003057] group-hover:text-white" />
               </div>
               <div>
                 <p className="text-xs text-zinc-400 uppercase tracking-widest font-bold">Email</p>
-                <Link href="mailto:clarkarjeily@gmail.com" className="text-xl text-zinc-900 font-semibold hover:text-blue-600 transition-colors">
+                <Link href="mailto:clarkarjeily@gmail.com" className="text-xl text-zinc-900 font-semibold hover:text-[#003057] transition-colors">
                   clarkarjeily@gmail.com
                 </Link>
               </div>
             </div>
 
             <div className="flex items-center gap-4 group">
-              <div className="p-4 rounded-2xl bg-blue-50 border border-blue-100 group-hover:bg-blue-600 transition-all duration-300">
-                <Phone className="h-6 w-6 text-blue-600 group-hover:text-white" />
+              <div className="p-4 rounded-2xl bg-blue-50 border border-blue-100 group-hover:bg-[#003057] transition-all duration-300">
+                <Phone className="h-6 w-6 text-[#003057] group-hover:text-white" />
               </div>
               <div>
                 <p className="text-xs text-zinc-400 uppercase tracking-widest font-bold">Phone</p>
@@ -85,8 +85,8 @@ export function Contact() {
             </div>
 
             <div className="flex items-center gap-4 group">
-              <div className="p-4 rounded-2xl bg-blue-50 border border-blue-100 group-hover:bg-blue-600 transition-all duration-300">
-                <MapPin className="h-6 w-6 text-blue-600 group-hover:text-white" />
+              <div className="p-4 rounded-2xl bg-blue-50 border border-blue-100 group-hover:bg-[#003057] transition-all duration-300">
+                <MapPin className="h-6 w-6 text-[#003057] group-hover:text-white" />
               </div>
               <div>
                 <p className="text-xs text-zinc-400 uppercase tracking-widest font-bold">Location</p>
@@ -109,11 +109,11 @@ export function Contact() {
             >
               <div className="flex items-center gap-4">
                 <div className="p-3 bg-white rounded-xl shadow-sm border border-zinc-100">
-                  <Linkedin className="h-8 w-8 text-blue-600" />
+                  <Linkedin className="h-8 w-8 text-[#003057]" />
                 </div>
                 <span className="text-2xl font-bold text-zinc-900">LinkedIn</span>
               </div>
-              <div className="h-12 w-12 rounded-full bg-white border border-zinc-100 flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition-all">
+              <div className="h-12 w-12 rounded-full bg-white border border-zinc-100 flex items-center justify-center group-hover:bg-[#003057] group-hover:text-white transition-all">
                 <span className="text-3xl group-hover:translate-x-1 transition-transform">→</span>
               </div>
             </Link>

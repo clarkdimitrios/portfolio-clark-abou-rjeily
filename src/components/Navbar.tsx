@@ -66,7 +66,7 @@ export function Navbar() {
       scrolled ? "bg-white/80 backdrop-blur-md border-b border-zinc-100 shadow-sm" : "bg-transparent py-6"
     )}>
       <div className="text-2xl font-black tracking-tighter text-zinc-900">
-        &lt;CA<span className="text-blue-600">/</span>&gt;
+        &lt;CA<span className="text-[#003057]">/</span>&gt;
       </div>
       <div className="hidden md:flex items-center gap-8">
         {navItems.map((item) => (
@@ -75,8 +75,8 @@ export function Navbar() {
             href={item.href}
             onClick={() => setActive(item.name)}
             className={cn(
-              "text-sm font-bold transition-all hover:text-blue-600 uppercase tracking-widest",
-              active === item.name ? "text-blue-600" : "text-zinc-500"
+              "text-sm font-bold transition-all hover:text-[#003057] uppercase tracking-widest",
+              active === item.name ? "text-[#003057]" : "text-zinc-500"
             )}
           >
             {item.name}
@@ -86,7 +86,7 @@ export function Navbar() {
             href="/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-zinc-900 text-white px-6 py-2 rounded-full text-sm font-bold hover:bg-blue-600 transition-all shadow-lg hover:shadow-blue-500/20"
+            className="bg-zinc-900 text-white px-6 py-2 rounded-full text-sm font-bold hover:bg-[#003057] transition-all shadow-lg hover:shadow-blue-500/20"
           >
             RESUME
           </Link>

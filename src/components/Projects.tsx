@@ -152,7 +152,7 @@ export function Projects() {
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                 >
-                  <Card className="bg-white border-zinc-200 overflow-hidden flex flex-col group hover:border-blue-600/50 transition-all hover:shadow-2xl h-full">
+                  <Card className="bg-white border-zinc-200 overflow-hidden flex flex-col group hover:border-[#003057]/50 transition-all hover:shadow-2xl h-full">
                     <ProjectMedia project={project} />
 
                     <CardHeader>

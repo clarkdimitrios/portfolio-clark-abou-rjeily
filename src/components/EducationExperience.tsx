@@ -135,7 +135,7 @@ function TimelineItem({ title, subtitle, period, location, details, index, logo 
       transition={{ duration: 0.5, delay: index * 0.1 }}
       className="relative pl-8 pb-12 last:pb-0 border-l-2 border-zinc-100"
     >
-      <div className="absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-white border-4 border-blue-600 shadow-lg shadow-blue-500/20" />
+      <div className="absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-white border-4 border-[#003057] shadow-lg shadow-blue-500/20" />
       <div className="flex flex-col md:flex-row md:items-start justify-between gap-4 mb-4">
         <div className="flex gap-4 items-start">
           {logo && (
@@ -145,7 +145,7 @@ function TimelineItem({ title, subtitle, period, location, details, index, logo 
           )}
           <div>
             <h3 className="text-2xl font-bold text-zinc-900">{title}</h3>
-            <p className="text-blue-600 font-semibold text-lg">{subtitle}</p>
+            <p className="text-[#003057] font-semibold text-lg">{subtitle}</p>
           </div>
         </div>
         <div className="md:text-right">
