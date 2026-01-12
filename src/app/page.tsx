@@ -16,7 +16,7 @@ export default function Home() {
         <Contact />
       </div>
       <footer className="py-12 border-t border-zinc-100 bg-white text-center text-zinc-500 text-sm">
-        <p>© {new Date().getFullYear()} Clark Abou Rjeily. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Clark Abou-Rjeily. All rights reserved.</p>
         <p className="mt-2">Built with Next.js, Tailwind CSS, and Framer Motion.</p>
       </footer>
     </main>
