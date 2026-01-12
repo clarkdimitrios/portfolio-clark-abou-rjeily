@@ -11,7 +11,7 @@ const education = [
     logo: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/0c96ce6b-4e6e-401c-9a07-642e0ed15a13/Georgia_Tech_logo_2021_Cropped-1768185672803.png?width=8000&height=8000&resize=contain",
     details: [
       "Core Areas: Controls, Artificial Intelligence (AI), and Perception",
-      "GPA: 4.0/4.0",
+      "GPA: 4.0/4.0 | Graduating Spring 2026",
       "Coursework: Robotics, Nonlinear & Networked Control, Deep Reinforcement Learning, Computer Vision, Human-Robot Interaction",
     ],
   },
@@ -194,7 +194,7 @@ function EducationCard({ title, subtitle, period, location, details, index, logo
           <ul className="grid grid-cols-1 gap-2">
             {details.map((detail: string, i: number) => (
               <li key={i} className="flex gap-2 text-zinc-600 text-base leading-relaxed">
-                <span className="text-blue-500 mt-1.5 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-blue-500" />
+                <span className="text-blue-500 mt-1.5 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-[#003057]" />
                 <span>{detail}</span>
               </li>
             ))}
