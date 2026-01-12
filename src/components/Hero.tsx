@@ -31,7 +31,7 @@ export function Hero() {
           </div>
 
           <div className="space-y-4">
-            <h2 className="text-4xl md:text-6xl font-black text-[#003057] tracking-tighter uppercase drop-shadow-sm">
+            <h2 className="text-6xl md:text-8xl font-black text-[#003057] tracking-tighter uppercase drop-shadow-sm">
               Clark Abou-Rjeily
             </h2>
           <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-zinc-900 leading-tight">
