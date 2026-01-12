@@ -24,7 +24,7 @@ const education = [
     details: [
       "Minor in Business Administration",
       "GPA: 4.0/4.0 | Graduated with High Distinction",
-      "Ranked 1st in Track (Control, Robotics, and Intelligence Systems)",
+      "Ranked 1st, Track in Control, Robotics, and Intelligence Systems",
       "Coursework: Autonomous Mobile Robotics, Machine Learning, Modern Control Systems, Instrumentation",
     ],
   },
@@ -207,7 +207,7 @@ function EducationCard({ title, subtitle, period, location, details, index, logo
 
 export function EducationExperience() {
   return (
-    <div className="py-24 px-8 md:px-16 lg:px-24 space-y-24 bg-white">
+    <div className="py-24 px-8 md:px-16 lg:px-20 space-y-24 bg-white">
       {/* Education */}
       <section id="education" className="max-w-5xl mx-auto space-y-12">
         <h2 className="text-4xl font-bold tracking-tight text-zinc-900 border-b border-zinc-100 pb-4 italic">Education</h2>
