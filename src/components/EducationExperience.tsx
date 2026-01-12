@@ -135,7 +135,7 @@ function TimelineItem({ title, subtitle, period, location, details, index, logo 
       transition={{ duration: 0.5, delay: index * 0.1 }}
       className="relative pl-8 pb-12 last:pb-0 border-l-2 border-zinc-100"
     >
-      <div className="absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-white border-4 border-[#003057] shadow-lg shadow-blue-500/20" />
+      <div className="absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-white border-4 border-blue-600 shadow-lg shadow-blue-500/20" />
       <div className="flex flex-col md:flex-row md:items-start justify-between gap-4 mb-4">
         <div className="flex gap-4 items-start">
           {logo && (
@@ -145,7 +145,7 @@ function TimelineItem({ title, subtitle, period, location, details, index, logo 
           )}
           <div>
             <h3 className="text-2xl font-bold text-zinc-900">{title}</h3>
-            <p className="text-[#003057] font-semibold text-lg">{subtitle}</p>
+            <p className="text-blue-600 font-semibold text-lg">{subtitle}</p>
           </div>
         </div>
         <div className="md:text-right">
@@ -162,15 +162,58 @@ function TimelineItem({ title, subtitle, period, location, details, index, logo 
   )
 }
 
+function EducationCard({ title, subtitle, period, location, details, index, logo }: any) {
+  const isSecond = index === 1;
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.6, delay: index * 0.2 }}
+      className={`relative w-full max-w-3xl bg-white rounded-2xl border border-zinc-100 p-8 shadow-sm hover:shadow-md transition-shadow ${
+        isSecond ? "md:ml-auto" : ""
+      }`}
+    >
+      <div className="flex flex-col sm:flex-row gap-8 items-start">
+        {logo && (
+          <div className="w-20 h-20 flex-shrink-0 bg-white rounded-xl border border-zinc-50 p-2 flex items-center justify-center overflow-hidden shadow-inner">
+            <img src={logo} alt={title} className="w-full h-full object-contain" />
+          </div>
+        )}
+        <div className="flex-1 space-y-4">
+          <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-2">
+            <div>
+              <h3 className="text-2xl font-bold text-zinc-900 leading-tight">{title}</h3>
+              <p className="text-blue-600 font-semibold text-lg">{subtitle}</p>
+            </div>
+            <div className="sm:text-right">
+              <p className="text-zinc-500 font-mono text-sm font-medium">{period}</p>
+              <p className="text-zinc-400 text-sm italic">{location}</p>
+            </div>
+          </div>
+          <ul className="grid grid-cols-1 gap-2">
+            {details.map((detail: string, i: number) => (
+              <li key={i} className="flex gap-2 text-zinc-600 text-base leading-relaxed">
+                <span className="text-blue-500 mt-1.5 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-blue-500" />
+                <span>{detail}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </motion.div>
+  )
+}
+
 export function EducationExperience() {
   return (
     <div className="py-24 px-8 md:px-16 lg:px-24 space-y-24 bg-white">
       {/* Education */}
       <section id="education" className="max-w-5xl mx-auto space-y-12">
         <h2 className="text-4xl font-bold tracking-tight text-zinc-900 border-b border-zinc-100 pb-4 italic">Education</h2>
-        <div className="space-y-0">
+        <div className="flex flex-col gap-8">
           {education.map((item, index) => (
-            <TimelineItem
+            <EducationCard
               key={item.institution}
               title={item.institution}
               subtitle={item.degree}
