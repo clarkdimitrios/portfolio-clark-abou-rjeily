@@ -97,7 +97,7 @@ const experience = [
       ],
     },
     {
-      company: "Build It Weekend 5.0 (Robotics Competition)",
+      company: "Build It Weekend 5.0 (AUBRC x IEEE Robotics Competition)",
       role: "Participant (2nd Place)",
       location: "Beirut, Lebanon",
       period: "03/2023 – 04/2023",
