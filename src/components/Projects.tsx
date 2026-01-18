@@ -27,7 +27,7 @@ const projectCategories = [
       {
         title: "Dual-Arm Industrial Manipulation",
         description: "Ground up implementation of bimanual coordination for ROS-based tasks using advanced kinematics and force control, using DENSO VM-60B1 arms.",
-        tags: ["Manipulation", "Bimanual", "Kinematics", "ROS 2", "CAD"],
+        tags: ["Manipulation", "Bimanual", "Kinematics", "ROS 2", "CAD", "SolidWorks", "Blender", "Gazebo", "RViz"],
         video: "/denso-1767103100925.webm",
         image: "/denso.webp",
       },
