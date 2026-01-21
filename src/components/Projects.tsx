@@ -39,14 +39,14 @@ const projectCategories = [
       {
         title: "Decentralized Heterogeneous ACO",
         description:
-          "Ant Colony Optimization framework for capability-based multi-agent cooperation on Georgia Tech's Robotarium integrated with Reinforcement Learning and reward shaping, adapted for lower communication ranges and decentralized operation. Customized control barrier functions are used for collision avoidance through quadratic programming; RL results in emergent per-agent role specialization, i.e. exploration vs. exploitation",
+          "Ant Colony Optimization framework for capability-based multi-agent cooperation on Georgia Tech's Robotarium integrated with Reinforcement Learning and reward shaping, adapted for lower communication ranges and decentralized operation.\n\nCustomized control barrier functions are used for collision avoidance through quadratic programming; RL results in emergent per-agent role specialization, i.e. exploration vs. exploitation.",
         tags: ["Multi-Agent", "ACO", "Robotarium", "QP", "Online RL"],
         video: "/aco-robotarium-1767103100948.webm",
         image: "/aco.png",
       },
       {
         title: "DIAYN with Human-Relevant Skills",
-        description: "Reproduction and validation of Diversity Is All You Need (DIAYN) across benchmarks, extended to 6-DOF Panda Arm Manipulation in robosuite with HRL/VAE.",
+        description: "Reproduction and validation of Diversity Is All You Need (DIAYN) across benchmarks, extended to 6-DOF Panda Arm Manipulation in robosuite with HRL/VAE.\n\nThe extensions were made in order to contextualize and guide the skill-learning to achieve relevant and more useful skills.",
         tags: ["Deep RL", "Panda Arm", "SAC", "VAE", "PyTorch", "MuJoCo"],
         video: "/sac_video-1767103100956.webm",
         image: "/sac.png",
