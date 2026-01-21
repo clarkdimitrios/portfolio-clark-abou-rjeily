@@ -127,6 +127,31 @@
   }
 }
 
-html {
+/* html {
   font-size: 110%;
+} */
+
+html {
+  font-size: 100%;
+}
+
+/* Large laptops / desktops */
+@media (min-width: 1440px) {
+  html {
+    font-size: 110%;
+  }
+}
+
+/* Medium laptops */
+@media (max-width: 1280px) {
+  html {
+    font-size: 95%;
+  }
+}
+
+/* Phones */
+@media (max-width: 768px) {
+  html {
+    font-size: 90%;
+  }
 }
