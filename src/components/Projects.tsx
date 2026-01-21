@@ -39,7 +39,7 @@ const projectCategories = [
       {
         title: "Decentralized Heterogeneous ACO",
         description:
-          "Ant Colony Optimization framework for capability-based multi-agent cooperation on Georgia Tech's Robotarium integrated with Reinforcement Learning.",
+          "Ant Colony Optimization framework for capability-based multi-agent cooperation on Georgia Tech's Robotarium integrated with Reinforcement Learning and reward shaping.",
         tags: ["Multi-Agent", "ACO", "Robotarium", "RL"],
         video: "/aco-robotarium-1767103100948.webm",
         image: "/aco.png",
@@ -83,8 +83,8 @@ const projectCategories = [
       },
       {
         title: "Sensor Fusion for 3D Reconstruction",
-        description: "3D scene reconstruction from vision data for robotics and SLAM applications, used to generate a novel multi-sensor 3D recon dataset.",
-        tags: ["3D Reconstruction", "Perception", "OptiTrack", "C#"],
+        description: "3D scene reconstruction from vision data for robotics and SLAM applications, used to generate a novel multi-sensor 3D recon dataset with the use of motion capture.",
+        tags: ["3D Reconstruction", "Perception", "Mocap", "OptiTrack", "C#"],
         image:
           "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/0c96ce6b-4e6e-401c-9a07-642e0ed15a13/environment-1767098341397.png?width=8000&height=8000&resize=contain",
       },
