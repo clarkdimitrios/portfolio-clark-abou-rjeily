@@ -39,15 +39,15 @@ const projectCategories = [
       {
         title: "Decentralized Heterogeneous ACO",
         description:
-          "Ant Colony Optimization framework for capability-based multi-agent cooperation on Georgia Tech's Robotarium integrated with Reinforcement Learning and reward shaping.",
-        tags: ["Multi-Agent", "ACO", "Robotarium", "RL"],
+          "Ant Colony Optimization framework for capability-based multi-agent cooperation on Georgia Tech's Robotarium integrated with Reinforcement Learning and reward shaping, adapted for lower communication ranges and decentralized operation. Customized control barrier functions are used for collision avoidance through quadratic programming; RL results in emergent per-agent role specialization, i.e. exploration vs. exploitation",
+        tags: ["Multi-Agent", "ACO", "Robotarium", "QP", "Online RL"],
         video: "/aco-robotarium-1767103100948.webm",
         image: "/aco.png",
       },
       {
         title: "DIAYN with Human-Relevant Skills",
         description: "Reproduction and validation of Diversity Is All You Need (DIAYN) across benchmarks, extended to 6-DOF Panda Arm Manipulation in robosuite with HRL/VAE.",
-        tags: ["Deep RL", "Panda Arm", "VAE", "PyTorch", "MuJoCo"],
+        tags: ["Deep RL", "Panda Arm", "SAC", "VAE", "PyTorch", "MuJoCo"],
         video: "/sac_video-1767103100956.webm",
         image: "/sac.png",
       },
@@ -83,8 +83,8 @@ const projectCategories = [
       },
       {
         title: "Sensor Fusion for 3D Reconstruction",
-        description: "3D scene reconstruction from vision data for robotics and SLAM applications, used to generate a novel multi-sensor 3D recon dataset with the use of motion capture.",
-        tags: ["3D Reconstruction", "Perception", "Mocap", "OptiTrack", "C#"],
+        description: "3D scene reconstruction from vision data for robotics and SLAM applications, used to generate a novel multi-sensor 3D reconstruction dataset with the use of motion capture.",
+        tags: ["3D Recon", "Perception", "Mocap", "OptiTrack", "C#"],
         image:
           "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/0c96ce6b-4e6e-401c-9a07-642e0ed15a13/environment-1767098341397.png?width=8000&height=8000&resize=contain",
       },
